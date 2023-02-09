@@ -399,4 +399,5 @@ replace github.com/jaguilar/vt100 => github.com/tonistiigi/vt100 v0.0.0-20190402
 exclude github.com/tencentcloud/tencentcloud-sdk-go v3.0.83+incompatible
 
 // replace github.com/go-logr/logr => github.com/go-logr/logr v0.4.0
+
 replace github.com/go-acme/lego/v4 v4.9.1 github.com/go-acme/lego/v4 master
