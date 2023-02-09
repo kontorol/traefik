@@ -187,6 +187,7 @@ require (
 	github.com/fvbommel/sortorder v1.0.1 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
+	github.com/go-jose/go-jose/v3 v3.0.0 // indirect
 	github.com/go-logfmt/logfmt v0.5.1 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -333,6 +334,7 @@ require (
 	github.com/tonistiigi/units v0.0.0-20180711220420-6950e57a87ea // indirect
 	github.com/transip/gotransip/v6 v6.17.0 // indirect
 	github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926 // indirect
+	github.com/ultradns/ultradns-go-sdk v1.4.0-20221107152238-f3f1d1d // indirect
 	github.com/vinyldns/go-vinyldns v0.9.16 // indirect
 	github.com/vultr/govultr/v2 v2.17.2 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
@@ -358,7 +360,7 @@ require (
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
-	golang.org/x/oauth2 v0.0.0-20220909003341-f21342109be1 // indirect
+	golang.org/x/oauth2 v0.1.0 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/term v0.3.0 // indirect
@@ -400,4 +402,4 @@ exclude github.com/tencentcloud/tencentcloud-sdk-go v3.0.83+incompatible
 
 // replace github.com/go-logr/logr => github.com/go-logr/logr v0.4.0
 
-replace github.com/go-acme/lego/v4 => github.com/go-acme/lego/v4 master
+replace github.com/go-acme/lego/v4 => github.com/go-acme/lego/v4 v4.9.2-0.20230205205441-e76a104315ca
